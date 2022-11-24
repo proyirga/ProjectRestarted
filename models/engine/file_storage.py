@@ -3,8 +3,6 @@
 
 import json
 
-from models.base_model import BaseModel
-
 
 class FileStorage:
     """Class for storing and retrieving data"""
