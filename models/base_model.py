@@ -21,7 +21,7 @@ class BaseModel():
                         self.__setattr__(name, datetime.fromisoformat(attr))
         else:
             self.id = str(uid.uuid4())
-            self.created_at = datetime.noe()
+            self.created_at = datetime.now()
             self.updated_at = datetime.now()
 
     def __str__:
