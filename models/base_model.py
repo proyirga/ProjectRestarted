@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-from datetime import date
+from datetime import datetime
+import uuid
 
 class BaseModel():
     """
@@ -8,19 +9,22 @@ class BaseModel():
     """
 
 
-    def __init__(self, created_at, updated_at):
+    def __init__(self):
         """
         Instantiating puplic instance attributes
         """
 
         self.id = uuid.uuid4()
-        self.created_at = created_at
-        self.updated_at = updated_at
+        self.created_at = ""
+        self.updated_at = ""
 
-    def __str__:
+    def __str__(self):
         """
         print: [<class name>] (<self.id>) <self.__dict__>
         """
+
+        return "[{}] ({}) {}".\
+                format(type(self).__name__, self.id, self.__dict__)
 
     def save(self):
         """
@@ -28,7 +32,7 @@ class BaseModel():
         current datetime.
         """
 
-        self.updated_at = date.now.isoformat();
+        self.updated_at = datetime.now
 
     def to_dict(self):
         """
@@ -36,4 +40,8 @@ class BaseModel():
         __dict__ of the instance.
         """
 
-        return (class.self.__dict__)
+        my_dict = BaseModel.__dict__
+        my_dict["__class__"] = type(self).__name__
+        my_dict["created_at"] = my_dict["created_at"].isoformat()
+        my_dict["updated_at"] = my_dict["updated_at"].isoformat()
+        return my_dict
