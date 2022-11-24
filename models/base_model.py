@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-from datetime import date
-
+from datetime import datetime
+from models import storage
 
 class BaseModel():
     """
@@ -36,6 +36,7 @@ class BaseModel():
         """
 
         self.updated_at = date.now.isoformat()
+        models.storage.save()
 
     def to_dict(self):
         """
