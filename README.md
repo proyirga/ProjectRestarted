@@ -46,7 +46,7 @@ ___
 This repository constains the following files:
 
 |File| Description|
-|:-------|-------:|
+|:-------|:-------|
 |Authors| Contains info about authors of the project|
 |base_model.py8| Defines BaseModel class (parent class), and methods|
 |file_storage.py|Creates new instance of class, serializes and deserializes data|
