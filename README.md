@@ -132,6 +132,6 @@ The recognizable commands by the interpreter are the following:
 |update| Updates an instance based on the class name and id by adding or updating attribute (saves the changes into a JSON file).|
 # Authors
 ___
-Selehadin Seid| ## [https://github.com/Saladii]
+Selehadin Seid|  [https://github.com/Saladii]
 
-Yirga Beyene| ## [https://github.com/proyirga]
+Yirga Beyene|  [https://github.com/proyirga]
