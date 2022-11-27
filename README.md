@@ -2,7 +2,7 @@
 
 ___
 
-![Image link](https://user-images.githubusercontent.com/88311316/151070609-19608294-829e-408b-b2b3-5d1f2873f1e3.png)
+![Image link](https://cbi-blog.s3.amazonaws.com/blog/wp-content/uploads/2015/06/airbnb_logo_detail.png)
 
 ## Description of the project
 ___
