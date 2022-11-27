@@ -39,3 +39,20 @@ These instructions will get you a copy of the project up and running on your loc
 ___
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
+user git clone we cloned the resparatory.
+## Repo Contents
+___
+
+This repository constains the following files:
+
+|File| Description|
+|:-------|-------:|
+|Authors| Contains info about authors of the project|
+|base_model.py8| Defines BaseModel class (parent class), and methods|
+|file_storage.py|Creates new instance of class, serializes and deserializes data|
+|console.py|  creates object, retrieves object from file, does operations on objects, updates attributes of object and destroys object|
+
+and allof the sub clases and unittest files
+
+# How to use it
+____
